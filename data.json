@@ -1,0 +1,20 @@
+{
+    "questions": {
+        "Vad är huvudstaden i Sverige?": "Stockholm",
+        "Hur många minuter finns det i en timme?": "60",
+        "Vad heter världens största ocean?": "Stilla havet",
+        "Vilken färg får du om du blandar blått och gult?": "Grön",
+        "Vad är 5 * 6?": "30",
+        "Vilket år började andra världskriget?": "1939",
+        "Hur många kontinenter finns det på jorden?": "7",
+        "Hur många ben har en spindel?": "8",
+        "Vad heter astronomin som handlar om stjärnor?": "Astrofysik",
+        "Vilket ämne har kemiska beteckningen H2O?": "Vatten"
+    },
+    "player_scores": {
+        "Alice": 12,
+        "Bob": 8,
+        "Charlie": 15,
+        "ABBA": 5
+    }
+}
