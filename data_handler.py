@@ -1,7 +1,5 @@
 import json
 
-
-
 def load_data(): #tar in datan från data.json, anävnds bara i main
     with open('data.json', "r", encoding="utf-8") as f:
         return json.load(f)

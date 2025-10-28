@@ -13,7 +13,7 @@ def spel(kategori):
             tally += 1
         elif not answers.correct_answer(question, data[kategori], question):
             print("Game Over!")
-    return tally
+            return tally
 
 
 def main_menu(title, prompt, options):
@@ -41,7 +41,7 @@ def adduser(data):
     users[username] = password
 
     data["användare"] = users  # sätt tillbaka (om users inte fanns innan)
-    data["player_scores"][users]= 0
+    data["player_scores"][username]= 0
     print(f"Welcome {username}, you have now created an account!\n")
 
     return data  # returnera uppdaterad data
@@ -69,5 +69,5 @@ def useractions(user):
             return "logout"
         elif choice == "p":
             return "play"
-        elif choice == "l":
-            pass #lägg till funktion för leaderboards.
+        elif choice == "s":
+            return 'scoreboards'

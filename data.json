@@ -171,10 +171,14 @@
     },
     "användare": {
         "nisse": "apa",
-        "bosse": "ko"
+        "bosse": "ko",
+        "natalie": "simma"
     },
-    "player_scores": {"nisse":0,
-    "bosse":  0},
+    "player_scores": {
+        "nisse": 1,
+        "bosse": 0,
+        "natalie": 0
+    },
     "login_meny": {
         "l": "Login",
         "c": "Create user",
@@ -186,7 +190,7 @@
     },
     "huvud_meny": {
         "p": "Play",
-        "l": "Leaderboards",
+        "s": "Scoreboards",
         "q": "Quit"
     },
     "spel_meny": {
