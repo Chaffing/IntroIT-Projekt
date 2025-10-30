@@ -1,6 +1,5 @@
 import data_handler, answers, randomizer
 
-menyer = data_handler.load_data()
 data = data_handler.load_data()
 
 def spel(kategori):
@@ -55,7 +54,7 @@ def login(users):
         if user in users and password == users[user]:
             return user
         else:
-            choice =main_menu("\nInvalid username or password\n", "\nOptions: ", menyer["försök_igen_meny"])
+            choice =main_menu("\nInvalid username or password\n", "\nOptions: ", data["försök_igen_meny"])
             if choice == "r":
                 continue
             else:
@@ -64,7 +63,7 @@ def login(users):
 def useractions(user):
     print(f"Welcome {user}!")
     while True:
-        choice = main_menu("Select an option: ", "\nOption: ", menyer["huvud_meny"])
+        choice = main_menu("Select an option: ", "\nOption: ", data["huvud_meny"])
         if choice == "q":
             return "logout"
         elif choice == "p":

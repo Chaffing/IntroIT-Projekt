@@ -1,5 +1,4 @@
 import randomizer, points, data_handler, menu
-from answers import correct_answer, false_answer
 
 
 def main():
@@ -36,11 +35,5 @@ def main():
 
         elif choice == 'c':
             data_handler.save_data(menu.adduser(data))
-
-
-
-
-
-
 if __name__ == "__main__":
     main()
